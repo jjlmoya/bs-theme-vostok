@@ -6,7 +6,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head(); ?>
 </head>
-<body <?php body_class('p-wordpress kino'); ?>>
+<body <?php body_class('p-wordpress diable'); ?>>
 <?php
 require_once get_template_directory(dirname(__FILE__)) . '/service/ModelService.php';
 new ModelService('ImageOptimizer');
