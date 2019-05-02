@@ -31,9 +31,7 @@ class NavService
         $html = '<div class="og-footer-classic__social l-column l-column--1-4 l-column--mobile--1-1
                          a-pad--x-20 a-pad--mobile-40
                          a-border a-border--light a-border--left a-border--mobile--bottom">
-        <h2 class="a-text a-text--xl  a-text--secondary a-text--m">
-            Sígueme en mis redes
-		</h2>
+        <h2 class="a-text a-text--xl  a-text--secondary a-text--m">Sígueme en mis redes</h2>
         <nav class="ml-social-simple a-text l-flex l-flex--wrap a-pad">';
         while ($posts->have_posts()) : $posts->the_post();
             $content = get_the_content();
